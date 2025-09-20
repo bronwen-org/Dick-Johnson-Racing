@@ -1,0 +1,4 @@
+run Arduino IDE
+board from maz is ESP32S3 Dev Module output on 115200 band 
+Board from Frank is Arduino ESP32S3
+ESP is short for Expressive, Arduino has taken the Expressive chip and made their own board off it
