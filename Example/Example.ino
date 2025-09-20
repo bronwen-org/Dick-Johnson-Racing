@@ -68,7 +68,7 @@ void loop() {
   rainbow(10);             // Flowing rainbow cycle along the whole strip
   theaterChaseRainbow(50); // Rainbow-enhanced theaterChase variant
 
-  Serial.println('test');
+  Serial.println("test"); // test was ilegable when this was in single quotes
 }
 
 
