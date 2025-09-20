@@ -75,6 +75,13 @@ void loop() {
   bool testVar = digitalRead(1);
 
   Serial.println(testVar); // print if the button is being pressed at the point in time that this loop loops
+  // this printed 1 when the button was not pressed and 0 when the button was pressed
+
+  //wiring instructions
+  //red wires go to 5v
+  //black wires go to ground
+  //blue and white go to IO
+  //Above button (blue) wsas 1 light (white) was 6
 }
 
 
