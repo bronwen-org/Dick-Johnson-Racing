@@ -49,6 +49,8 @@ void setup() {
   strip.setBrightness(50); // Set BRIGHTNESS to about 1/5 (max = 255)
 
   Serial.begin(115200);
+
+  pinMode(1,INPUT_PULLUP);
 }
 
 
@@ -69,6 +71,10 @@ void loop() {
   theaterChaseRainbow(50); // Rainbow-enhanced theaterChase variant
 
   Serial.println("test"); // test was ilegable when this was in single quotes
+
+  bool testVar = digitalRead(1);
+
+  Serial.println(testVar); // print if the button is being pressed at the point in time that this loop loops
 }
 
 
